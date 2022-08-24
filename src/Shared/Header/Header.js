@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBell } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 
 const Header = () => {
@@ -24,7 +26,7 @@ const Header = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl">Code<span className='text-primary font-bold'>W</span>Kaniz</a>
+                    <a class="btn btn-ghost normal-case text-xl">Code<span className='text-primary font-bold text-xl'>W</span>Kaniz</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
@@ -43,7 +45,9 @@ const Header = () => {
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn">Get started</a>
+                    <a class="btn btn-primary">
+                    <FontAwesomeIcon icon={faBell} />
+                    </a>
                 </div>
             </div>
         </div>
