@@ -7,7 +7,7 @@ const LogIn = () => {
             <div class="hero min-h-screen bg-base-200">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div class="text-center lg:text-left">
-                        <h1 class="text-5xl font-bold pb-5">Enroll now !</h1>
+                        <h1 class="text-5xl font-bold pb-5 text-primary">Enroll now !</h1>
                        <CountDown></CountDown>
                     </div>
                     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -24,7 +24,7 @@ const LogIn = () => {
                                 </label>
                                 <input type="text" placeholder="password" class="input input-bordered" />
                                 <label class="label">
-                                    <a href="#" class="label-text-alt text-primary font-bold">continue with google ?</a>
+                                    <a href="#" class="label-text-alt text-accent font-bold">continue with google ?</a>
                                 </label>
                             </div>
                             <div class="form-control mt-6">
