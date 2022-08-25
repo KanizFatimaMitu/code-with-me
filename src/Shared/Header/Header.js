@@ -5,7 +5,7 @@ import Notification from '../../Components/Notification/Notification';
 const Header = () => {
     return (
         <div >
-            <div class="navbar fixed z-20 bg-base-100">
+            <div class="navbar fixed top-0 z-20 bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
