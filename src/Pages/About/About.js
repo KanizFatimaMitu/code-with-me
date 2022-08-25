@@ -6,7 +6,7 @@ const About = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-2 gap-x-4'>
                 <div class="card w-96 bg-neutral shadow-xl">
                     <div class="card-body">
-                        <h2 class="card-title text-info">Difrences between argument and parameter ?</h2>
+                        <h2 class="card-title text-info">Differences between argument and parameter ?</h2>
                         <p>- Function parameters are the names listed in the function's definition. Function arguments are the real values passed to the function.</p>
                     </div>
                 </div>

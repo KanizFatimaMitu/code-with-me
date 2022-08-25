@@ -13,28 +13,28 @@ const Header = () => {
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li >
-                                <NavLink to='/classes' className='justify-between text-secondary font-bold'>Classes</NavLink>
+                                <NavLink to='/classes' className='justify-between text-white font-bold'>Classes</NavLink>
                             </li>
                             <li tabindex="0">
-                                <NavLink to='/blog' class="justify-between text-secondary font-bold">Blog</NavLink>
+                                <NavLink to='/blog' class="justify-between text-white font-bold">Blog</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/profile' className='justify-between text-secondary font-bold'>Profile</NavLink>
+                                <NavLink to='/profile' className='justify-between text-white font-bold'>Profile</NavLink>
                             </li>
                         </ul>
                     </div>
-                    <NavLink to='/' class="btn btn-ghost normal-case text-xl font-bold">Code<span className='text-info font-bold text-2xl'>W</span>Kaniz</NavLink>
+                    <NavLink to='/' class="btn btn-ghost  text-xl font-bold">Code<span className='text-info font-bold text-3xl'>W</span>Kaniz</NavLink>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
                         <li>
-                            <NavLink to='/classes' className='text-secondary  font-bold'>Classes</NavLink>
+                            <NavLink to='/classes' className='text-white  font-bold'>Classes</NavLink>
                         </li>
                         <li tabindex="0">
-                            <NavLink to='/blog' className='text-secondary font-bold'>Blog</NavLink>
+                            <NavLink to='/blog' className='text-white font-bold'>Blog</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/profile' className='text-secondary font-bold'>Profile</NavLink>
+                            <NavLink to='/profile' className='text-white font-bold'>Profile</NavLink>
                         </li>
                     </ul>
                 </div>
