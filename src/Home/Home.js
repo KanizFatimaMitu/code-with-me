@@ -9,7 +9,6 @@ import Header from '../Shared/Header/Header';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
            <LogIn></LogIn>
            <Provide></Provide>
            <Review></Review>
