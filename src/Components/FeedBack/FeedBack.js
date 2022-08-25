@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeedBack = () => {
     return (
-        <div className='mx-auto'>
+        <div className='mx-auto my-4'>
             <div class="hero min-h-screen bg-base-200">
                 <div class="hero-content flex-col lg:flex-row">
                     <img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl" />
