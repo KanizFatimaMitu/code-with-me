@@ -4,7 +4,8 @@ import LogIn from '../Components/LogIn/LogIn';
 import Provide from '../Components/Provide/Provide';
 import Review from '../Components/Review/Review';
 import Statistics from '../Components/Statistics/Statistics';
-import Header from '../Shared/Header/Header';
+import Footer from '../Shared/Footer/Footer';
+
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
            <Review></Review>
            <FeedBack></FeedBack>
            <Statistics></Statistics>
+           <Footer></Footer>
         </div>
     );
 };

@@ -4,6 +4,15 @@ const About = () => {
     return (
         <div>
             <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
+            <h1>want to know about me</h1>
         </div>
     );
 };
