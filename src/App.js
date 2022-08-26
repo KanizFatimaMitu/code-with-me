@@ -6,6 +6,7 @@ import Classes from './Pages/Classes/Classes';
 import About from './Pages/About/About';
 import Profile from './Pages/Profile/Profile';
 import SignIn from './Components/LogIn/SignIn';
+import SignUp from './Components/LogIn/SignUp';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/blog" element={<About></About>}></Route>
         <Route path="/profile" element={<Profile></Profile>}></Route>
         <Route path="/signin" element={<SignIn></SignIn>}></Route>
+        <Route path="/signup" element={<SignUp></SignUp>}></Route>
       </Routes>
 
       

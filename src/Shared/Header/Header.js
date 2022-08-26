@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import LogIn from '../../Components/LogIn/LogIn';
 import Notification from '../../Components/Notification/Notification';
 
 const Header = () => {
@@ -40,10 +39,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a>
-                        <Notification></Notification>
-                    </a>
-                    
+                    <Notification></Notification>
                 </div>
             </div>
         </div>
