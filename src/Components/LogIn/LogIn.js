@@ -12,7 +12,7 @@ const LogIn = () => {
                         <h1 class="text-5xl font-bold pb-5 text-primary">Enroll now !</h1>
                         <p>JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web used by programmers across the world to create dynamic and interactive web content like applications and browsers.JavaScript is a simple and easy-to-learn programming language as compared to other languages such as C++, Ruby, and Python. </p>
                         <button class="btn btn-active mt-2 btn-primary">
-                            <NavLink to='/signup'>Enroll</NavLink>
+                            <NavLink to='/signin'>Enroll</NavLink>
                         </button>
                     </div>
 
@@ -20,26 +20,6 @@ const LogIn = () => {
                         <div>
                             <img src={pic} alt='/'></img>
                         </div>
-                        {/* <div class="card-body  bg-neutral ">
-                            <div class="form-control ">
-                                <label class="label">
-                                    <span class="label-text">Email</span>
-                                </label>
-                                <input type="text" placeholder="email" class="input input-bordered" />
-                            </div>
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Password</span>
-                                </label>
-                                <input type="text" placeholder="password" class="input input-bordered" />
-                                <label class="label">
-                                    <a href="#" class="label-text-alt text-accent font-bold">continue with google ?</a>
-                                </label>
-                            </div>
-                            <div class="form-control mt-6">
-                                <button class="btn btn-primary">Login</button>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>

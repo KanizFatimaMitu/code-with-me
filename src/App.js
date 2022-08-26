@@ -5,7 +5,7 @@ import Header from './Shared/Header/Header';
 import Classes from './Pages/Classes/Classes';
 import About from './Pages/About/About';
 import Profile from './Pages/Profile/Profile';
-import SignUp from './Components/LogIn/SignUp';
+import SignIn from './Components/LogIn/SignIn';
 
 
 
@@ -19,7 +19,7 @@ function App() {
         <Route path="/classes" element={<Classes></Classes>}></Route>
         <Route path="/blog" element={<About></About>}></Route>
         <Route path="/profile" element={<Profile></Profile>}></Route>
-        <Route path="/signup" element={<SignUp></SignUp>}></Route>
+        <Route path="/signin" element={<SignIn></SignIn>}></Route>
       </Routes>
 
       
