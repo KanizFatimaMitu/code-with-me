@@ -1,12 +1,11 @@
 import React from 'react';
 import CountDown from '../CountDown/CountDown';
-import code from '../../Assests/code.jpg'
 import pic from '../../Assests/pic.jpg'
 
 
 const LogIn = () => {
     return (
-        <div className='mt-12 justify-center'>
+        <div className='mt-12'>
             <div class="hero min-h-screen bg-base-200">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div class="text-center lg:text-left">
