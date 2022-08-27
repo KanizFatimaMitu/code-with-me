@@ -9,8 +9,8 @@ const SignIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
-    const [signInWithEmailAndPassword,user,loading,error,] = useSignInWithEmailAndPassword(auth);
- 
+    const [signInWithEmailAndPassword, user, loading, error,] = useSignInWithEmailAndPassword(auth);
+
 
 
     let signInError;
@@ -39,7 +39,6 @@ const SignIn = () => {
 
     return (
         <div className='mt-24  w-3/2 lg:w-1/2 mx-auto'>
-
             <div class="card-body  bg-neutral ">
                 <h1 className='text-center font-bold text-2xl'>Sign<span className='text-info'>in</span></h1>
                 <form onSubmit={(handleSubmit)} >
@@ -57,7 +56,7 @@ const SignIn = () => {
                         <label class="label">
                             <span class="label-text">Password</span>
                         </label>
-                        <input type="text"
+                        <input type="password"
                             placeholder="password"
                             class="input input-bordered"
                             onChange={(e) => setPassword(e.target.value)}
@@ -66,21 +65,17 @@ const SignIn = () => {
                             <small>new here ? <span ><NavLink to='/signup' className='text-accent'>create account</NavLink></span></small>
 
                         </label>
-                        
                     </div>
                     {signInError}
+                    <div class="form-control mt-6">
+                        <button
+                            type='submit'
+                            onClick={() => signInWithEmailAndPassword(email, password)}
+                            class="btn btn-primary">
+                            signin
+                        </button>
+                    </div>
 
-                    
-                
-               
-                <div class="form-control mt-6">
-                    <button
-                        onClick={() => signInWithEmailAndPassword(email, password)}
-                        class="btn btn-primary">
-                        signin
-                    </button>
-                </div>
-                
                 </form>
                 <h1 className='text-primary m-2 text-center font-bold text-xl'>OR</h1>
                 <button

@@ -3,7 +3,6 @@ import React from 'react';
 const About = () => {
     return (
         <div className='my-24 mx-12'>
-            <h1 className='text-center mb-8 text-3xl font-bold'>Q<span className='text-info text-2xl'>n</span>A</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-2 gap-x-4'>
                 <div class="card w-96 bg-neutral shadow-xl">
                     <div class="card-body">

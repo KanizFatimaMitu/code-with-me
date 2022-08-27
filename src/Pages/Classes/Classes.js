@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../../Pages/About/About'
 
 const Classes = () => {
     return (
@@ -23,7 +24,7 @@ const Classes = () => {
                 <div class="divider lg:divider-horizontal">OR</div>
                 <div class="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center">
                     {/* <!-- The button to open modal --> */}
-                    <label for="my-modal-6" class="btn modal-button">Add video ?</label>
+                    <label for="my-modal-6" class="btn modal-button">Add Blog ?</label>
 
                     {/* <!-- Put this part before </body> tag --> */}
                 <input type="checkbox" id="my-modal-6" class="modal-toggle" />
@@ -38,6 +39,7 @@ const Classes = () => {
                 </div>
                 </div>
         </div>
+        <About></About>
         </div >
     );
 };
