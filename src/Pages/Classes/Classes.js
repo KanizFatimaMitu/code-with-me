@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../../Pages/About/About'
 import Footer from '../../Shared/Footer/Footer';
+import Questions from '../../Shared/Questions/Questions';
 
 const Classes = () => {
     return (
@@ -41,6 +42,8 @@ const Classes = () => {
                 </div>
                 </div>
         </div>
+        
+        <Questions></Questions>
         <About></About>
         <Footer></Footer>
         </div >
