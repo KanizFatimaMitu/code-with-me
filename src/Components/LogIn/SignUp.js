@@ -90,7 +90,7 @@ const SignUp = () => {
                 </div>
                 
                 </form>
-                <h1 className='text-primary m-2 text-center font-bold text-xl'>OR</h1>
+                <h1 className='text-info m-2 text-center font-bold text-lg'>OR</h1>
                 <button
                     onClick={() => signInWithGoogle()}
                     class="btn btn-primary">

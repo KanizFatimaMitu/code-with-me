@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Notification from '../../Components/Notification/Notification';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleDown, faSignIn } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     return (
@@ -21,6 +23,9 @@ const Header = () => {
                             <li>
                                 <NavLink to='/profile' className='justify-between text-white font-bold'>Profile</NavLink>
                             </li>
+                            <li>
+                                <NavLink to='/signup' className='justify-between text-white font-bold'><FontAwesomeIcon  icon={ faSignIn} /></NavLink>
+                            </li>
                         </ul>
                     </div>
                     <NavLink to='/' class="btn btn-ghost  text-xl font-bold">Code<span className='text-info font-bold text-3xl'>W</span>Kaniz</NavLink>
@@ -36,6 +41,9 @@ const Header = () => {
                         <li>
                             <NavLink to='/profile' className='text-white font-bold'>Profile</NavLink>
                         </li>
+                        <li>
+                                <NavLink to='/signup' className='justify-between text-white font-bold'><FontAwesomeIcon  icon={ faSignIn} /></NavLink>
+                            </li>
                     </ul>
                 </div>
                 <div class="navbar-end">

@@ -1,11 +1,12 @@
 import React from 'react';
+import feedback from '../../Assests/feedback.jpg'
 
 const FeedBack = () => {
     return (
         <div className='mx-auto my-4'>
             <div class="hero min-h-screen bg-base-200">
                 <div class="hero-content flex-col lg:flex-row">
-                    <img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl" />
+                <img className='p-12' src={feedback} alt='/'></img>
                     <div>
                         <h1 class="text-5xl font-bold my-2 ">give me your <span className='text-info'>Feed</span><span className='text-accent'>Back!</span></h1>
                         <div className='flex flex-col py-4 gap-y-4'>

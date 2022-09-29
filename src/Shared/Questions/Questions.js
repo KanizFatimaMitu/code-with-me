@@ -9,17 +9,20 @@ const Questions = () => {
             <div class="collapse">
                 <input type="checkbox" class="peer" />
                 <div class="collapse-title  bg-base-300 text-gray-300 font-bold text-center text-xl peer-checked:bg-neutral peer-checked:text-info">
-                    <FontAwesomeIcon icon={ faArrowAltCircleDown }></FontAwesomeIcon>  Click me to show all recent questions
+                    "Click me to show all recent questions"
+                    <p className='text-info m-2'>
+                        <FontAwesomeIcon icon={faArrowAltCircleDown}></FontAwesomeIcon>
+                    </p>
                 </div>
                 <div class="collapse-content bg-primary font-bold text-primary peer-checked:bg-neutral peer-checked:text-info">
                     <div class="collapse-title my-2 text-xl bg-primary text-white text- font-medium">
-                       <FontAwesomeIcon icon= { faCheck }></FontAwesomeIcon> what is database ?
+                        <FontAwesomeIcon icon={faCheck}></FontAwesomeIcon> what is database ?
                     </div>
                     <div class="collapse-title my-2 text-xl bg-primary text-white text- font-medium">
-                       <FontAwesomeIcon icon= { faCheck }></FontAwesomeIcon> what is the Difference between "===" & "==" ?
+                        <FontAwesomeIcon icon={faCheck}></FontAwesomeIcon> what is the Difference between "===" & "==" ?
                     </div>
                     <div class="collapse-title my-2 text-xl bg-primary text-white text- font-medium">
-                       <FontAwesomeIcon icon= { faCheck }></FontAwesomeIcon> what is Node.js
+                        <FontAwesomeIcon icon={faCheck}></FontAwesomeIcon> what is Node.js
                     </div>
                 </div>
             </div>

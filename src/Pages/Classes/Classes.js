@@ -1,6 +1,5 @@
 import React from 'react';
 import About from '../../Pages/About/About'
-import Footer from '../../Shared/Footer/Footer';
 import Questions from '../../Shared/Questions/Questions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
@@ -47,7 +46,7 @@ const Classes = () => {
 
             <Questions></Questions>
             <About></About>
-            <Footer></Footer>
+           
         </div >
     );
 };
