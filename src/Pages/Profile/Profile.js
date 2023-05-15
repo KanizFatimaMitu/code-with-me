@@ -10,7 +10,7 @@ const Profile = () => {
                         <h1 class="text-4xl font-bold text-info">My name is <br /> "Kaniz Fatima"</h1>
                         <p class="py-6 text-lg">"I am a MERN stack web developer. I love to use my creativity and make something new. That's why I love to play with code. Over the last year, I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can make beautiful UIs and also can handle the back-end smoothly."</p>
                         <button  class="btn btn-primary">
-                            <a className='font-bold' target="_blank" href="https://www.linkedin.com/in/kaniz-fatima-mitu-212432233/"> my LinkedIn </a>
+                            <a className='font-bold' target="_blank" href="https://www.linkedin.com/in/kaniz-mitu/"> my LinkedIn </a>
                         </button>
                     </div>
                 </div>

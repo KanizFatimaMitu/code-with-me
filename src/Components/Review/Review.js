@@ -7,7 +7,7 @@ import review4 from '../../Assests/review4.png'
 const Review = () => {
     return (
        <div>
-        <h1 className='text-center text-3xl font-bold my-8'>Review</h1>
+        <h1 className='text-center text-3xl font-bold my-8'>Our Students</h1>
          <div className='flex justify-center items-center my-12 mx-4 gap-x-8 gap-y-8 flex-col lg:flex-row'>
             <div class="card w-96 bg-base-200 shadow-xl">
                 <figure class="px-10 pt-10">
